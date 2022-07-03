@@ -426,29 +426,30 @@
     "options": "",
     "readOnly": false,
     "dependencies": []
-  },
+  },  
   {
-    "id": "divider3",
+    "id": "divider4",
     "displayName": "VRA Admin",
     "type": "Divider",
     "dependencies": []
   },
   {
-    "id": "dc:publisher",
-    "displayName": "Publisher",
-    "prefix": "dc",
-    "namespace": "http://purl.org/dc/elements/1.1/",
-    "propertyName": "publisher",
-    "type": "MultiText",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
     "id": "photoshop:TransmissionReference",
-    "displayName": "Transmission Reference",
+    "displayName": "Job ID",
     "prefix": "photoshop",
     "namespace": "http://ns.adobe.com/photoshop/1.0/",
     "propertyName": "TransmissionReference",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+    {
+    "id": "photoshop:CaptionWriter",
+    "displayName": "Cataloger",
+    "prefix": "photoshop",
+    "namespace": "http://ns.adobe.com/photoshop/1.0/",
+    "propertyName": "CaptionWriter",
     "type": "Text",
     "options": "",
     "readOnly": false,
@@ -493,6 +494,55 @@
     "prefix": "vrae",
     "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
     "propertyName": "custom6/vrae:data",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+    {
+    "id": "divider3",
+    "displayName": "VRA Collection",
+    "type": "Divider",
+    "dependencies": []
+  },
+  {
+    "id": "dc:publisher",
+    "displayName": "Collection Name",
+    "prefix": "dc",
+    "namespace": "http://purl.org/dc/elements/1.1/",
+    "propertyName": "publisher",
+    "type": "MultiText",
+    "readOnly": false,
+    "dependencies": []
+  }, 
+    {
+    "id": "vraeCollectionRefid",
+    "displayName": "Collection ID",
+    "prefix": "vrae",
+    "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
+    "propertyName": "collection.refid",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+    {
+    "id": "CollectionHref",
+    "displayName": "Collection URL",
+    "prefix": "vrae",
+    "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
+    "propertyName": "collection.href",
+    "type": "Text",
+    "options": "",
+    "readOnly": false,
+    "dependencies": []
+  },
+    {
+    "id": "CollectionSource",
+    "displayName": "Collection Source",
+    "prefix": "vrae",
+    "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
+    "propertyName": "collection.source",
     "type": "Text",
     "options": "",
     "readOnly": false,
